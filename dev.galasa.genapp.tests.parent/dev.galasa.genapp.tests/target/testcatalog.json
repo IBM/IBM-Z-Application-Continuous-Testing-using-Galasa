@@ -1,0 +1,33 @@
+{
+  "classes": {
+    "dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustInquiryGeneralInsurance": {
+      "name": "dev.galasa.genapp.tests.GenAppCustInquiryGeneralInsurance",
+      "bundle": "dev.galasa.genapp.tests",
+      "shortName": "GenAppCustInquiryGeneralInsurance",
+      "package": "dev.galasa.genapp.tests"
+    },
+    "dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustAddGeneralInsurance": {
+      "name": "dev.galasa.genapp.tests.GenAppCustAddGeneralInsurance",
+      "bundle": "dev.galasa.genapp.tests",
+      "shortName": "GenAppCustAddGeneralInsurance",
+      "package": "dev.galasa.genapp.tests"
+    }
+  },
+  "packages": {
+    "dev.galasa.genapp.tests": [
+      "dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustInquiryGeneralInsurance",
+      "dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustAddGeneralInsurance"
+    ]
+  },
+  "bundles": {
+    "dev.galasa.genapp.tests": {
+      "packages": {
+        "dev.galasa.genapp.tests": [
+          "dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustInquiryGeneralInsurance",
+          "dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustAddGeneralInsurance"
+        ]
+      }
+    }
+  },
+  "sharedEnvironments": {}
+}

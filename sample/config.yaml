@@ -1,0 +1,8 @@
+hostname: {hostname}
+galasaRegistry: docker.galasa.dev
+version: 0.14.0
+engineController:
+  controllerVersion: 0.14.0
+  engineVersion: 0.14.0
+  
+  

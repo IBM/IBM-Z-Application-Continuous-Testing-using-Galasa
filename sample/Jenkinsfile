@@ -1,0 +1,21 @@
+pipeline {
+   agent { node { label 'master' } }
+   stages {
+      stage('run-tests') {
+         steps {
+            step([$class: 'GalasaTestExecution', 
+                  tests: ['dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustAddGeneralInsurance'],
+                  stream: 'GENAPP',
+                  pollTime: '5',
+                  envProps: []
+                  ])
+            step([$class: 'GalasaTestExecution', 
+                  tests: ['dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustInquiryGeneralInsurance'],
+                  stream: 'GENAPP',
+                  pollTime: '5',
+                  envProps: []
+                  ])                  
+         }
+      }
+   }
+}

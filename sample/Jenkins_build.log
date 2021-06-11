@@ -1,0 +1,60 @@
+Started by user Administrator
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\GenApp-test
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (run-tests)
+[Pipeline] step
+************************************************************
+** Galasa Test Selection starting                        ***
+************************************************************
+Using username 'admin' for Galasa bootstrap
+Authenticating with Galasa auth Service
+Retrieving Galasa Bootstrap Properties
+Received Bootsrap properties:
+-- listing properties --
+framework.extra.bundles=dev.galasa.cps.etcd,dev.galasa.ras.co...
+framework.config.store=etcd:http://analyze-vm:2379
+The following 1 Galasa test classes have been selected for running
+    dev.galasa.genapp.tests.GenAppCustAddGeneralInsurance
+Test Run Instance = jenkins
+Maximum number of concurrent runs is: 1
+Galasa Server Poll time is: 5 seconds
+Tests schedule endpoint: http://analyze-vm:8080/runs/1f986f93-4187-4b1c-a2b8-e2f3501d2325
+Galasa has completed 1 out of 1 tests
+Tests passed:
+dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustAddGeneralInsurance - RunID(J18)
+Tests failed:
+Tests ignored:
+Tests lost:
+[Pipeline] step
+************************************************************
+** Galasa Test Selection starting                        ***
+************************************************************
+Using username 'admin' for Galasa bootstrap
+Authenticating with Galasa auth Service
+Retrieving Galasa Bootstrap Properties
+Received Bootsrap properties:
+-- listing properties --
+framework.extra.bundles=dev.galasa.cps.etcd,dev.galasa.ras.co...
+framework.config.store=etcd:http://analyze-vm:2379
+The following 1 Galasa test classes have been selected for running
+    dev.galasa.genapp.tests.GenAppCustInquiryGeneralInsurance
+Test Run Instance = jenkins
+Maximum number of concurrent runs is: 1
+Galasa Server Poll time is: 5 seconds
+Tests schedule endpoint: http://analyze-vm:8080/runs/1b271e7a-53b0-4b49-8faa-c91969008bb0
+Galasa has completed 1 out of 1 tests
+Tests passed:
+dev.galasa.genapp.tests/dev.galasa.genapp.tests.GenAppCustInquiryGeneralInsurance - RunID(J19)
+Tests failed:
+Tests ignored:
+Tests lost:
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS

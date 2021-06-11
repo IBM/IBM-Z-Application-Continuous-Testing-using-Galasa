@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1621406536115
+Build-Jdk: 1.8.0_271
+Built-By: 000UAV744
+Bundle-ManifestVersion: 2
+Bundle-Name: dev.galasa.genapp.tests
+Bundle-SymbolicName: dev.galasa.genapp.tests
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: dev.galasa.genapp.tests;uses:="dev.galasa,dev.galasa.zos
+ ,dev.galasa.zos3270,dev.galasa.zos3270.spi";version="0.0.1"
+Import-Package: dev.galasa;version="[0.11,1)",dev.galasa.zos;version="[0
+ .11,1)",dev.galasa.zos3270;version="[0.11,1)",dev.galasa.zos3270.spi;ve
+ rsion="[0.11,1)",org.assertj.core.api;version="[3.11,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252
